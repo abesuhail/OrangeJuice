@@ -1,19 +1,101 @@
 .navbar {
 	display: inline-block;
-	background-color: orange;
+	background-color: #FE7F00;
 	width: 100%;
+	color: white;
+	position: relative;
+	top: -20px;
+	left: -20px;
+	padding-right: 35px;
+	font-size: 12px;
+	background-image: url(../img/orangeslice.png);
+	background-repeat: no-repeat;
+	background-position: 4% 33%;
 }
 h1 {
 	display: inline-block;
+	padding-left:85px;
 }
 ul {
-	background-color: orange;
 	padding-top: 0;
 	display: inline-block;
 }
 
 li {
 	display: inline-block;
-	padding-left: 70px;
 	text-align: right;
+}
+.heading {
+	display: inline-block;
+	padding-left: 650px;
+	margin: 20px;
+	word-spacing: 20px;
+
+}
+img {
+	z-index: -1;
+	position: absolute;
+	bottom: 50px;
+}
+form {
+	padding-left: 1100px;
+	margin: auto;
+	width:500px;
+}
+input {
+	box-sizing: border-box;
+	padding-top: 20px;
+	text-align: left;
+	position: absolute;
+	top: 66px;
+	background-color: #EEEEEE;
+	outline: none;
+	border-radius: 0px;
+	background-image: url(../img/search.png);
+	background-repeat: no-repeat;
+	background-position: 130px 10px;
+}
+.middle {
+	font-size: 42px;
+	padding-top: 120px;
+	padding-left: 600px;
+}
+p {
+	color: #FE7F00;
+	font-weight: bold;
+}
+.quote , .CaseStudies {
+	display: inline-block;
+	color: white;
+}
+.quote {
+	background-color: #FE7C00;
+	border:0;
+	position: relative;
+	left:750px;
+	font-size: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.CaseStudies {
+	background-color: #7AC8CA;
+	position: relative;
+	left: 850px;
+	font-size: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+footer {
+	background-color: #7AC8CA;
+	padding-bottom: 60px;
+	position: relative;
+	bottom: -75px;
+	padding-right: 40px;
+	width: 100%;
+}
+* {
+	font-family: 'Comfortaa', cursive;
+}
+span {
+	color: #91BBB9;
 }
