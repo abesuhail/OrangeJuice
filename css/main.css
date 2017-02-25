@@ -99,3 +99,112 @@ footer {
 span {
 	color: #91BBB9;
 }
+@media (max-width: 1348px) {
+	.heading {
+		padding-left: 200px;
+	}
+	form {
+		padding-left: 250px;
+	}
+}
+@media (max-width: 898px) {
+	.heading {
+		padding-left: 10px;
+	}
+	img {
+		display: none;
+	}
+	.middle p {
+		position: absolute;
+		left: 200px;
+		top: 100px;
+	}
+	footer {
+		position: absolute;
+		bottom: -75px;
+	}
+	.quote , .CaseStudies {
+		position: relative;
+		left: 200px;
+		top: 200px;
+		}
+}
+@media (max-width: 738px) {
+	.quote , .CaseStudies {
+		position: relative;
+		top: 250px;
+	}
+}
+@media (max-width: 708px) {
+	form {
+		position: absolute;
+		top: 50px;
+	}
+	.middle {
+		font-size: 30px;
+		position: absolute;
+		bottom: 300px;
+	}
+	.quote , .CaseStudies {
+		position: relative;
+		top: 350px;
+	}
+}
+@media (max-width: 471px) {
+	.navbar  {
+		font-size: 10px;
+	}
+	.middle {
+		position: absolute;
+		right: 20px;
+		top: 200px;
+		font-size: 22px;
+	}
+	form {
+		position: relative;
+		right: 150px;
+		top: 10px;
+
+	}
+	.quote , .CaseStudies {
+		position: relative;
+		left: 50px;
+	}
+}
+@media (max-width: 430px) {
+	.navbar {
+		font-size: 8px;
+	}
+	.middle {
+		font-size: 18px;
+		position: relative;
+		right: 100px;
+		top: 100px;
+	}
+	.quote , .CaseStudies {
+		position: relative;
+		top: 200px;
+	}
+}
+@media (max-width: 350px) {
+	.quote , .CaseStudies {
+		width: 50%;
+		position: relative;
+		bottom: 150px;
+	}
+	.middle {
+		position: relative;
+		right: 180px;
+		top: 75px;
+		font-size: 16px;
+	}
+	form {
+		position: relative;
+		top: 10px;
+	}
+	footer {
+		display: none;
+	}
+
+
+}
